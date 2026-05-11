@@ -42,10 +42,7 @@ ffuf -u "http://facts.htb/FUZZ" -w /usr/share/wordlists/common.txt -v
     * FUZZ: admin
 ```
 
-Заходим на `facts.htb/admin/login` и создаем нового юзера:
-
-username: user
-password: user
+Заходим на `facts.htb/admin/login` и создаем нового юзера с кредами user:user.
 
 Заметки:
 - `/admin/profile/edit` — Role: **Client**
